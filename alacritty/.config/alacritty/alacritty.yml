@@ -39,6 +39,12 @@ scrolling:
 # change the `it` value in terminfo when altering this setting.
 tabspaces: 4
 
+key_bindings:
+- { key: PageUp,   mods: Shift, action: ScrollPageUp,   mode: ~Alt }
+- { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt }
+- { key: Home,     mods: Shift, action: ScrollToTop,    mode: ~Alt }
+- { key: End,      mods: Shift, action: ScrollToBottom, mode: ~Alt }
+
 # key_bindings:
 #   - { key: 12,      mods: Alt,    chars: "\x02\x22" }
 #   - { key: 43,      mods: Alt,    chars: "\x02\x25" }
