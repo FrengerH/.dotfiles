@@ -12,4 +12,4 @@ if test $terminals -lt 2
 else
     tmux
 end
-echo "test"
+#echo "test"

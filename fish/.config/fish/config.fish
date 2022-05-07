@@ -31,7 +31,7 @@ function fish_user_key_bindings
   fish_vi_key_bindings
 end
 
-bind -M insert \cj accept-autosuggestion
+bind -M insert \cn accept-autosuggestion
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

@@ -4,6 +4,8 @@ set number
 set relativenumber
 set clipboard=unnamedplus
 set termguicolors
+set noswapfile
+
 call plug#begin()
 
 Plug 'neovim/nvim-lspconfig'
