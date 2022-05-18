@@ -26,6 +26,9 @@ Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 
+Plug 'othree/html5.vim'
+Plug 'nelsyeung/twig.vim'
+
 Plug 'doums/darcula'
 
 Plug 'https://github.com/tpope/vim-commentary'

@@ -29,9 +29,10 @@ set -gx XDG_CONFIG_HOME ~/.config/
 
 function fish_user_key_bindings
   fish_vi_key_bindings
+  bind -M insert \cn accept-autosuggestion
+  bind --preset -M insert \cl echo test
+  bind --erase --preset -M insert \cl echo test
 end
-
-bind -M insert \cn accept-autosuggestion
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
