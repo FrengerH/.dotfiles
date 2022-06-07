@@ -6,8 +6,8 @@
 #    xcape -e 'Control_L=Escape' -t 200
 #end
 
-set terminals (pgrep alacritty | wc -l)
-if test $terminals -lt 2
+set terminals (tmux ls | wc -l)
+if test $terminals -lt 1
     tmux attach -t base || tmux new -s base
 else
     tmux

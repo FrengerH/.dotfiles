@@ -45,6 +45,11 @@ key_bindings:
 - { key: Home,     mods: Shift, action: ScrollToTop,    mode: ~Alt }
 - { key: End,      mods: Shift, action: ScrollToBottom, mode: ~Alt }
 
+cursor:
+  style:
+    shape: Block
+  vi_mode_style: None
+
 # key_bindings:
 #   - { key: 12,      mods: Alt,    chars: "\x02\x22" }
 #   - { key: 43,      mods: Alt,    chars: "\x02\x25" }
