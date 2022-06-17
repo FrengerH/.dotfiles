@@ -24,7 +24,9 @@ main()
   show_border_contrast=$(get_tmux_option "@dracula-border-contrast" false)
   show_day_month=$(get_tmux_option "@dracula-day-month" false)
   show_refresh=$(get_tmux_option "@dracula-refresh-rate" 5)
-  IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "git cpu-usage ram-usage time")
+  # IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "git cpu-usage ram-usage time")
+  IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins" "git time")
+  # IFS=' ' read -r -a plugins <<< $(get_tmux_option "@dracula-plugins")
 
   # Dracula Color Pallette
   white='#f8f8f2'

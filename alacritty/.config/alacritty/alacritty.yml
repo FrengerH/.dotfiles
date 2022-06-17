@@ -4,10 +4,10 @@ import:
 
 shell:
   program: /usr/bin/fish
-  args:
-    - -l
-    - -c
-    - "~/.config/scripts/start-terminal.fish"
+  # args:
+  #   - -l
+  #   - -c
+  #   - "~/.config/scripts/start-terminal.fish"
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.

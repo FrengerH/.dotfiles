@@ -6,7 +6,7 @@ monitors=$(xrandr --listmonitors | wc -l)
 
 for i in $(seq $((monitors-1)))
 do
-    nitrogen --set-zoom-fill --head=$((i-1)) $HOME/.config/leftwm/themes/leftwm-theme-dracula-rounded/background.jpg
+    nitrogen --set-zoom-fill --head=$((i-1)) $HOME/.config/dwm/background.png
 done
 
 sleep 1 
