@@ -11,3 +11,4 @@ done
 
 sleep 1 
 dwmblocks
+nm-applet
